@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66e5e7b8be7a5             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Rating; use Pmpr\Common\Foundation\Container\ComponentInitiator; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\Rating\Model\Model; class Rating extends ComponentInitiator { const aiucyqocowoqgciy = "\x72\141\164\x69\x6e\x67\x5f"; public function register() { $this->gkieogwukagigisy(__DIR__, [Constants::qescuiwgsyuikume => static function () { return __("\122\141\164\x69\x6e\x67", PR__MDL__RATING); }]); } public function mameiwsayuyquoeq() { if (!$this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto meawswgwagoqgkye; } Setting::symcgieuakksimmu(); meawswgwagoqgkye: Hook::symcgieuakksimmu(); if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->mcgoysmkqsqooceq()) { goto mswsoaimesegiiic; } if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->eewqyocggsagyuis()) { goto wcesymwqykqoyuqk; } Model::symcgieuakksimmu(); Setting::symcgieuakksimmu(); goto usqgaogkqgemuima; wcesymwqykqoyuqk: Asset::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); usqgaogkqgemuima: goto egasokooagakisiy; mswsoaimesegiiic: Ajax::symcgieuakksimmu(); egasokooagakisiy: } public function aqyikqugcomoqqqi() { if (!$this->omseesogaocascyo("\163\164\162\165\x63\x74\x75\x72\x65\x64\x2d\144\x61\x74\x61")) { goto kecwuwwcwokuksyq; } StructuredData::symcgieuakksimmu(); kecwuwwcwokuksyq: } }

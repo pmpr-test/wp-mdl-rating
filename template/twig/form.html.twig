@@ -1,0 +1,31 @@
+<div class="rating-container">
+    {{ render_frontend_spinner({hide: render, overlay: not render}) }}
+    {% if render is defined and render %}
+        <div class="rating-wrapper">
+            {% if user_rate is not defined
+                or user_rate is empty %}
+
+                <span class="rating-title">{{ title|raw }}</span>
+                <p class="rating-guide">{{ guide_text|raw }}</p>
+                {{ rating_form|raw }}
+            {% endif %}
+
+            {% if result is defined
+                and result is not empty %}
+
+                <p class="rating-result">{{ result|raw }}</p>
+            {% endif %}
+
+            {% if user_rate is defined
+                and user_rate is not empty %}
+
+                <p class="user-rate">{{ user_rate|raw }}</p>
+            {% else %}
+
+                <p class="rating-message"></p>
+                {{ feedback_form|raw }}
+            {% endif %}
+        </div>
+    {% endif %}
+</div>
+

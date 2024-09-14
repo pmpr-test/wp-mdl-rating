@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr AMP\n"
+"POT-Creation-Date: 2023-11-15 15:08+0330\n"
+"PO-Revision-Date: 2023-11-15 15:08+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Bookmarks: -1,32,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/Rating/Ajax.php:115
+msgid "Something wrong on save your message."
+msgstr "اشکالی در فرایند ذخیره پیغام شما رخ داده است."
+
+#: src/Pmpr/Module/Rating/Ajax.php:119
+msgid "Feedback functionality is not enable."
+msgstr "عملکرد بازخورد فعال نیست."
+
+#: src/Pmpr/Module/Rating/Ajax.php:144
+msgid "Something wrong on save your rate."
+msgstr "اشکالی در ذخیره امتیاز شما رخ داده است."
+
+#: src/Pmpr/Module/Rating/Ajax.php:148
+msgid "Request is not valid, please try again."
+msgstr "درخواست شما معتبر نیست، لطفا دوباره سعی کنید."
+
+#: src/Pmpr/Module/Rating/Ajax.php:154
+msgid "Can not save your posted data. try latter please."
+msgstr "قادر به ذخیره داده‌ ارسالی شما نیستیم، لطفا مجددا تلاش کنید."
+
+#: src/Pmpr/Module/Rating/Asset.php:33
+msgid "Rate is not recorded. please try again."
+msgstr "امتیاز ثبت نشد، لطفا دوباره تلاش کنید."
+
+#: src/Pmpr/Module/Rating/Frontend.php:37
+#, php-format
+msgid "Rating Average %s of %s | Rating Count: %s"
+msgstr "میانگین امتیاز  %s از %s |  تعداد امتیاز: %s"
+
+#: src/Pmpr/Module/Rating/Frontend.php:55
+msgid "Your opinion is important to us"
+msgstr "نظر شما برای ما مهمه"
+
+#: src/Pmpr/Module/Rating/Frontend.php:56
+#, php-format
+msgid "Rate this post %s to %s"
+msgstr "به این نوشته از %s تا %s امتیاز بدین"
+
+#: src/Pmpr/Module/Rating/Frontend.php:65
+#, php-format
+msgid "You have already rate %s to this post."
+msgstr "شما قبلا امتیاز %s را برای این نوشته ثبت کرده‌اید."
+
+#: src/Pmpr/Module/Rating/Frontend.php:110
+msgid "Rating Feedback"
+msgstr "بازخورد امتیاز"
+
+#: src/Pmpr/Module/Rating/Frontend.php:111
+#: src/Pmpr/Module/Rating/Model/Feedback.php:30
+msgid "Text"
+msgstr "متن"
+
+#: src/Pmpr/Module/Rating/Frontend.php:113
+msgid "Submit"
+msgstr "تایید"
+
+#: src/Pmpr/Module/Rating/Hook.php:33 src/Pmpr/Module/Rating/Rating.php:18
+msgid "Rating"
+msgstr "امتیازدهی"
+
+#: src/Pmpr/Module/Rating/Hook.php:59
+#, php-format
+msgid "%s of %s %s"
+msgstr "%s از %s %s"
+
+#: src/Pmpr/Module/Rating/Model/Common.php:27
+#: src/Pmpr/Module/Rating/Model/Rate.php:81
+msgid "Object ID"
+msgstr "نوشته یا ترم"
+
+#: src/Pmpr/Module/Rating/Model/Common.php:30
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Module/Rating/Model/Common.php:31
+#: src/Pmpr/Module/Rating/Widget.php:40
+msgid "Post Type"
+msgstr "نوع نوشته‌"
+
+#: src/Pmpr/Module/Rating/Model/Common.php:32
+msgid "Taxonomy"
+msgstr "طبقه‌بندی"
+
+#: src/Pmpr/Module/Rating/Model/Common.php:35
+msgid "Owner"
+msgstr "کاربر"
+
+#: src/Pmpr/Module/Rating/Model/Common.php:38
+msgid "IP"
+msgstr "آی پی"
+
+#: src/Pmpr/Module/Rating/Model/Feedback.php:19
+#: src/Pmpr/Module/Rating/Setting.php:79
+msgid "Feedback"
+msgstr "بازخورد"
+
+#: src/Pmpr/Module/Rating/Model/Feedback.php:20
+msgid "Feedbacks"
+msgstr "بازخوردها"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:35
+#: src/Pmpr/Module/Rating/Setting.php:40
+msgid "Rate"
+msgstr "امتیاز"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:36
+msgid "Rates"
+msgstr "امتیاز‌ها"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:53
+msgid "Value"
+msgstr "مقدار"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:89
+msgid "Extremely Poor"
+msgstr "شدیدا ضعیف"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:90
+msgid "Bad"
+msgstr "بد"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:91
+msgid "Average"
+msgstr "متوسط"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:92
+msgid "Good"
+msgstr "خوب"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:93
+msgid "Excellent"
+msgstr "عالی"
+
+#: src/Pmpr/Module/Rating/Setting.php:31
+msgid "Rating Setting"
+msgstr "تنظیمات امتیازدهی"
+
+#: src/Pmpr/Module/Rating/Setting.php:32
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/Rating/Setting.php:42
+msgid "Rate Configuration"
+msgstr "پیکربندی امتیاز"
+
+#: src/Pmpr/Module/Rating/Setting.php:46 src/Pmpr/Module/Rating/Setting.php:85
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: src/Pmpr/Module/Rating/Setting.php:49
+msgid "Target Post Types"
+msgstr "نوع نوشته‌ها"
+
+#: src/Pmpr/Module/Rating/Setting.php:58
+msgid "Target Taxonomies"
+msgstr "طبقه‌بندی های هدف"
+
+#: src/Pmpr/Module/Rating/Setting.php:67
+msgid "Show Number in Stars"
+msgstr "نمایش عدد در ستاره‌ها"
+
+#: src/Pmpr/Module/Rating/Setting.php:68
+msgid "Check this option if you want show number of rate in rating stars."
+msgstr ""
+"اگر می‌خواهید عدد متناظر مربوط به امیتاز هر ستاره در آن نمایش داده شود، این "
+"گزینه را فعال کنید."
+
+#: src/Pmpr/Module/Rating/Setting.php:73
+msgid "Thanks Message"
+msgstr "پیغام تشکر"
+
+#: src/Pmpr/Module/Rating/Setting.php:74
+msgid "Thanks for your rating."
+msgstr "از امتیاز‌ی که دادید متشکریم."
+
+#: src/Pmpr/Module/Rating/Setting.php:81
+msgid "Feedback Configuration"
+msgstr "پیکربندی بازخورد"
+
+#: src/Pmpr/Module/Rating/Setting.php:88
+msgid "Enable Feedback"
+msgstr "فعال سازی بازخورد"
+
+#: src/Pmpr/Module/Rating/Setting.php:96
+msgid "Worse Threshold"
+msgstr "آستانه بدترین امتیاز"
+
+#: src/Pmpr/Module/Rating/Setting.php:98
+msgid "Ask a feedback question, if user rate less than threshold."
+msgstr ""
+"در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده خواهد "
+"شد."
+
+#: src/Pmpr/Module/Rating/Setting.php:102
+msgid "Feedback Question"
+msgstr "پرسش بازخورد"
+
+#: src/Pmpr/Module/Rating/Setting.php:103
+msgid "Share the reason behind this submission with us."
+msgstr "علت ثبت این امتیاز کم رو با ما در میان بگذارید."
+
+#: src/Pmpr/Module/Rating/Setting.php:107
+msgid "Feedback Message"
+msgstr "پیغام بازخورد"
+
+#: src/Pmpr/Module/Rating/Setting.php:108
+msgid "Thanks for your feedback."
+msgstr "بابت بازخوردتون ممنونیم."
+
+#: src/Pmpr/Module/Rating/Widget.php:20
+msgid "Popular Posts"
+msgstr "نوشته‌های محبوب"
+
+#: src/Pmpr/Module/Rating/Widget.php:21
+msgid "Display the most popular posts by rating."
+msgstr "نمایش محبوب‌ترین نوشته‌ها بر اساس امتیاز."
+
+#: src/Pmpr/Module/Rating/Widget.php:31
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/Rating/Widget.php:35
+msgid "Count"
+msgstr "تعداد"
+
+#: src/Pmpr/Module/Rating/Widget.php:45
+msgid "Metadata"
+msgstr "متادیتا"
+
+#: src/Pmpr/Module/Rating/Widget.php:50
+msgid "Render Template"
+msgstr "قالب نمایش"
+
+#: src/Pmpr/Module/Rating/Widget.php:52
+msgid "List"
+msgstr "لیست"
+
+#: src/Pmpr/Module/Rating/Widget.php:53
+msgid "Table"
+msgstr "جدول"
+
+#: src/Pmpr/Module/Rating/Widget.php:54
+msgid "Simple List"
+msgstr "لیست ساده"
+
+#~ msgid "Show Page"
+#~ msgstr "نمایش صفحه"
+
+#~ msgid "Post"
+#~ msgstr "نوشته‌"
+
+#~ msgid "Exclude Posts"
+#~ msgstr "نوشته‌های مستثنی"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "Required data not provided or not valid."
+#~ msgstr "داده‌های الزامی ارسال نشد‌اند یا معتبر نیستند."
+
+#~ msgid ""
+#~ "Sorry, this file couldn't be sanitized so for security reasons wasn't "
+#~ "uploaded"
+#~ msgstr ""
+#~ "متاسفم، قادر به پاکسازی فایل مورد نظر نبودیم، به دلایل امنیتی فایل آپلود "
+#~ "نشد"
+
+#~ msgid "Full Size"
+#~ msgstr "اندازه کامل"
+
+#~ msgid "Thumbnail"
+#~ msgstr "تصویر بند انگشتی"
+
+#~ msgid "Medium"
+#~ msgstr "متوسط"
+
+#~ msgid "Large"
+#~ msgstr "بزرگ"
+
+#~ msgid "AMP"
+#~ msgstr "شتابدهی موبایل"
+
+#~ msgid "Enable AMP"
+#~ msgstr "فعال سازی شتابدهی موبایل"
+
+#~ msgid "Endpoint"
+#~ msgstr "نقطه پایانی"
+
