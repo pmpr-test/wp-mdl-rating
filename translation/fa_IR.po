@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr AMP\n"
-"POT-Creation-Date: 2023-11-15 15:08+0330\n"
-"PO-Revision-Date: 2023-11-15 15:08+0330\n"
+"POT-Creation-Date: 2024-10-02 15:13+0330\n"
+"PO-Revision-Date: 2024-10-02 15:13+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -23,248 +23,252 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/Rating/Ajax.php:115
+#: src/Pmpr/Module/Rating/Ajax.php:124
 msgid "Something wrong on save your message."
 msgstr "اشکالی در فرایند ذخیره پیغام شما رخ داده است."
 
-#: src/Pmpr/Module/Rating/Ajax.php:119
+#: src/Pmpr/Module/Rating/Ajax.php:128
 msgid "Feedback functionality is not enable."
 msgstr "عملکرد بازخورد فعال نیست."
 
-#: src/Pmpr/Module/Rating/Ajax.php:144
+#: src/Pmpr/Module/Rating/Ajax.php:154
 msgid "Something wrong on save your rate."
 msgstr "اشکالی در ذخیره امتیاز شما رخ داده است."
 
-#: src/Pmpr/Module/Rating/Ajax.php:148
+#: src/Pmpr/Module/Rating/Ajax.php:158
 msgid "Request is not valid, please try again."
 msgstr "درخواست شما معتبر نیست، لطفا دوباره سعی کنید."
 
-#: src/Pmpr/Module/Rating/Ajax.php:154
+#: src/Pmpr/Module/Rating/Ajax.php:164
 msgid "Can not save your posted data. try latter please."
 msgstr "قادر به ذخیره داده‌ ارسالی شما نیستیم، لطفا مجددا تلاش کنید."
 
-#: src/Pmpr/Module/Rating/Asset.php:33
-msgid "Rate is not recorded. please try again."
-msgstr "امتیاز ثبت نشد، لطفا دوباره تلاش کنید."
-
-#: src/Pmpr/Module/Rating/Frontend.php:37
+#: src/Pmpr/Module/Rating/Frontend.php:42
 #, php-format
 msgid "Rating Average %s of %s | Rating Count: %s"
 msgstr "میانگین امتیاز  %s از %s |  تعداد امتیاز: %s"
 
-#: src/Pmpr/Module/Rating/Frontend.php:55
+#: src/Pmpr/Module/Rating/Frontend.php:60
 msgid "Your opinion is important to us"
 msgstr "نظر شما برای ما مهمه"
 
-#: src/Pmpr/Module/Rating/Frontend.php:56
+#: src/Pmpr/Module/Rating/Frontend.php:61
 #, php-format
 msgid "Rate this post %s to %s"
 msgstr "به این نوشته از %s تا %s امتیاز بدین"
 
-#: src/Pmpr/Module/Rating/Frontend.php:65
+#: src/Pmpr/Module/Rating/Frontend.php:70
 #, php-format
 msgid "You have already rate %s to this post."
 msgstr "شما قبلا امتیاز %s را برای این نوشته ثبت کرده‌اید."
 
-#: src/Pmpr/Module/Rating/Frontend.php:110
+#: src/Pmpr/Module/Rating/Frontend.php:115
 msgid "Rating Feedback"
 msgstr "بازخورد امتیاز"
 
-#: src/Pmpr/Module/Rating/Frontend.php:111
-#: src/Pmpr/Module/Rating/Model/Feedback.php:30
+#: src/Pmpr/Module/Rating/Frontend.php:116
+#: src/Pmpr/Module/Rating/Model/Feedback.php:35
 msgid "Text"
 msgstr "متن"
 
-#: src/Pmpr/Module/Rating/Frontend.php:113
+#: src/Pmpr/Module/Rating/Frontend.php:118
 msgid "Submit"
 msgstr "تایید"
 
-#: src/Pmpr/Module/Rating/Hook.php:33 src/Pmpr/Module/Rating/Rating.php:18
+#: src/Pmpr/Module/Rating/Hook.php:34 src/Pmpr/Module/Rating/Rating.php:25
 msgid "Rating"
 msgstr "امتیازدهی"
 
-#: src/Pmpr/Module/Rating/Hook.php:59
+#: src/Pmpr/Module/Rating/Hook.php:60
 #, php-format
 msgid "%s of %s %s"
 msgstr "%s از %s %s"
 
-#: src/Pmpr/Module/Rating/Model/Common.php:27
-#: src/Pmpr/Module/Rating/Model/Rate.php:81
+#: src/Pmpr/Module/Rating/Model/Common.php:21
+#: src/Pmpr/Module/Rating/Model/Rate.php:88
 msgid "Object ID"
 msgstr "نوشته یا ترم"
 
-#: src/Pmpr/Module/Rating/Model/Common.php:30
+#: src/Pmpr/Module/Rating/Model/Common.php:37
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/Rating/Model/Common.php:31
-#: src/Pmpr/Module/Rating/Widget.php:40
+#: src/Pmpr/Module/Rating/Model/Common.php:38
+#: src/Pmpr/Module/Rating/Widget.php:44
 msgid "Post Type"
 msgstr "نوع نوشته‌"
 
-#: src/Pmpr/Module/Rating/Model/Common.php:32
+#: src/Pmpr/Module/Rating/Model/Common.php:39
 msgid "Taxonomy"
 msgstr "طبقه‌بندی"
 
-#: src/Pmpr/Module/Rating/Model/Common.php:35
+#: src/Pmpr/Module/Rating/Model/Common.php:43
 msgid "Owner"
 msgstr "کاربر"
 
-#: src/Pmpr/Module/Rating/Model/Common.php:38
+#: src/Pmpr/Module/Rating/Model/Common.php:54
 msgid "IP"
 msgstr "آی پی"
 
-#: src/Pmpr/Module/Rating/Model/Feedback.php:19
-#: src/Pmpr/Module/Rating/Setting.php:79
-msgid "Feedback"
-msgstr "بازخورد"
+#: src/Pmpr/Module/Rating/Model/Common.php:61
+msgid "Created At"
+msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Module/Rating/Model/Feedback.php:20
+#: src/Pmpr/Module/Rating/Model/Feedback.php:17
 msgid "Feedbacks"
 msgstr "بازخوردها"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:35
-#: src/Pmpr/Module/Rating/Setting.php:40
-msgid "Rate"
-msgstr "امتیاز"
+#: src/Pmpr/Module/Rating/Model/Feedback.php:18
+#: src/Pmpr/Module/Rating/Setting.php:80
+msgid "Feedback"
+msgstr "بازخورد"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:36
+#: src/Pmpr/Module/Rating/Model/Rate.php:16
 msgid "Rates"
 msgstr "امتیاز‌ها"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:53
+#: src/Pmpr/Module/Rating/Model/Rate.php:17
+#: src/Pmpr/Module/Rating/Setting.php:41
+msgid "Rate"
+msgstr "امتیاز"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:48
 msgid "Value"
 msgstr "مقدار"
-
-#: src/Pmpr/Module/Rating/Model/Rate.php:89
-msgid "Extremely Poor"
-msgstr "شدیدا ضعیف"
-
-#: src/Pmpr/Module/Rating/Model/Rate.php:90
-msgid "Bad"
-msgstr "بد"
-
-#: src/Pmpr/Module/Rating/Model/Rate.php:91
-msgid "Average"
-msgstr "متوسط"
-
-#: src/Pmpr/Module/Rating/Model/Rate.php:92
-msgid "Good"
-msgstr "خوب"
 
 #: src/Pmpr/Module/Rating/Model/Rate.php:93
 msgid "Excellent"
 msgstr "عالی"
 
-#: src/Pmpr/Module/Rating/Setting.php:31
+#: src/Pmpr/Module/Rating/Model/Rate.php:94
+msgid "Good"
+msgstr "خوب"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:95
+msgid "Average"
+msgstr "متوسط"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:96
+msgid "Bad"
+msgstr "بد"
+
+#: src/Pmpr/Module/Rating/Model/Rate.php:97
+msgid "Extremely Poor"
+msgstr "شدیدا ضعیف"
+
+#: src/Pmpr/Module/Rating/Rating.php:79
+msgid "Rate is not recorded. please try again."
+msgstr "امتیاز ثبت نشد، لطفا دوباره تلاش کنید."
+
+#: src/Pmpr/Module/Rating/Setting.php:32
 msgid "Rating Setting"
 msgstr "تنظیمات امتیازدهی"
 
-#: src/Pmpr/Module/Rating/Setting.php:32
+#: src/Pmpr/Module/Rating/Setting.php:33
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Module/Rating/Setting.php:42
+#: src/Pmpr/Module/Rating/Setting.php:43
 msgid "Rate Configuration"
 msgstr "پیکربندی امتیاز"
 
-#: src/Pmpr/Module/Rating/Setting.php:46 src/Pmpr/Module/Rating/Setting.php:85
+#: src/Pmpr/Module/Rating/Setting.php:47 src/Pmpr/Module/Rating/Setting.php:86
 msgid "Configuration"
 msgstr "پیکربندی"
 
-#: src/Pmpr/Module/Rating/Setting.php:49
+#: src/Pmpr/Module/Rating/Setting.php:50
 msgid "Target Post Types"
 msgstr "نوع نوشته‌ها"
 
-#: src/Pmpr/Module/Rating/Setting.php:58
+#: src/Pmpr/Module/Rating/Setting.php:59
 msgid "Target Taxonomies"
 msgstr "طبقه‌بندی های هدف"
 
-#: src/Pmpr/Module/Rating/Setting.php:67
+#: src/Pmpr/Module/Rating/Setting.php:68
 msgid "Show Number in Stars"
 msgstr "نمایش عدد در ستاره‌ها"
 
-#: src/Pmpr/Module/Rating/Setting.php:68
+#: src/Pmpr/Module/Rating/Setting.php:69
 msgid "Check this option if you want show number of rate in rating stars."
 msgstr ""
 "اگر می‌خواهید عدد متناظر مربوط به امیتاز هر ستاره در آن نمایش داده شود، این "
 "گزینه را فعال کنید."
 
-#: src/Pmpr/Module/Rating/Setting.php:73
+#: src/Pmpr/Module/Rating/Setting.php:74
 msgid "Thanks Message"
 msgstr "پیغام تشکر"
 
-#: src/Pmpr/Module/Rating/Setting.php:74
+#: src/Pmpr/Module/Rating/Setting.php:75
 msgid "Thanks for your rating."
 msgstr "از امتیاز‌ی که دادید متشکریم."
 
-#: src/Pmpr/Module/Rating/Setting.php:81
+#: src/Pmpr/Module/Rating/Setting.php:82
 msgid "Feedback Configuration"
 msgstr "پیکربندی بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:88
+#: src/Pmpr/Module/Rating/Setting.php:89
 msgid "Enable Feedback"
 msgstr "فعال سازی بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:96
+#: src/Pmpr/Module/Rating/Setting.php:97
 msgid "Worse Threshold"
 msgstr "آستانه بدترین امتیاز"
 
-#: src/Pmpr/Module/Rating/Setting.php:98
+#: src/Pmpr/Module/Rating/Setting.php:99
 msgid "Ask a feedback question, if user rate less than threshold."
 msgstr ""
 "در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده خواهد "
 "شد."
 
-#: src/Pmpr/Module/Rating/Setting.php:102
+#: src/Pmpr/Module/Rating/Setting.php:103
 msgid "Feedback Question"
 msgstr "پرسش بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:103
+#: src/Pmpr/Module/Rating/Setting.php:104
 msgid "Share the reason behind this submission with us."
 msgstr "علت ثبت این امتیاز کم رو با ما در میان بگذارید."
 
-#: src/Pmpr/Module/Rating/Setting.php:107
+#: src/Pmpr/Module/Rating/Setting.php:108
 msgid "Feedback Message"
 msgstr "پیغام بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:108
+#: src/Pmpr/Module/Rating/Setting.php:109
 msgid "Thanks for your feedback."
 msgstr "بابت بازخوردتون ممنونیم."
 
-#: src/Pmpr/Module/Rating/Widget.php:20
+#: src/Pmpr/Module/Rating/Widget.php:21
 msgid "Popular Posts"
 msgstr "نوشته‌های محبوب"
 
-#: src/Pmpr/Module/Rating/Widget.php:21
+#: src/Pmpr/Module/Rating/Widget.php:22
 msgid "Display the most popular posts by rating."
 msgstr "نمایش محبوب‌ترین نوشته‌ها بر اساس امتیاز."
 
-#: src/Pmpr/Module/Rating/Widget.php:31
+#: src/Pmpr/Module/Rating/Widget.php:35
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Rating/Widget.php:35
+#: src/Pmpr/Module/Rating/Widget.php:39
 msgid "Count"
 msgstr "تعداد"
 
-#: src/Pmpr/Module/Rating/Widget.php:45
+#: src/Pmpr/Module/Rating/Widget.php:49
 msgid "Metadata"
 msgstr "متادیتا"
 
-#: src/Pmpr/Module/Rating/Widget.php:50
+#: src/Pmpr/Module/Rating/Widget.php:54
 msgid "Render Template"
 msgstr "قالب نمایش"
 
-#: src/Pmpr/Module/Rating/Widget.php:52
+#: src/Pmpr/Module/Rating/Widget.php:56
 msgid "List"
 msgstr "لیست"
 
-#: src/Pmpr/Module/Rating/Widget.php:53
+#: src/Pmpr/Module/Rating/Widget.php:57
 msgid "Table"
 msgstr "جدول"
 
-#: src/Pmpr/Module/Rating/Widget.php:54
+#: src/Pmpr/Module/Rating/Widget.php:58
 msgid "Simple List"
 msgstr "لیست ساده"
 
