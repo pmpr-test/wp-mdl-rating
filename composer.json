@@ -1,32 +1,9 @@
 {
-  "name": "pmpr-mdl/wp-mdl-rating",
-  "type": "project",
-  "license": "proprietary",
-  "description": "Rating Module for Wordpress",
-  "keywords": [
-    "wordpress",
-    "package",
-    "module",
-    "rating"
-  ],
-  "require": {
-    "php": ">=8.2",
-    "pmpr-cmn/wp-cmn-foundation": "~1.4"
-  },
   "prod-require": {
     "php": "8.2",
     "wordpress": "6.0",
     "wp-cmn-foundation": "latest"
   },
-  "autoload": {
-    "psr-4": {
-      "Pmpr\\Module\\Rating\\": "src/Pmpr/Module/Rating"
-    },
-    "files": [
-      "index.php"
-    ]
-  },
-  "minimum-stability": "dev",
   "tag": "1.1.39",
-  "timestamp": "1728905289"
+  "timestamp": "1728923371"
 }
