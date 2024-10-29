@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             671fc09d2873a             |
+    |             6720b7499d0e1             |
     |_______________________________________|
 */
  use Pmpr\Module\Rating\Rating; Rating::symcgieuakksimmu();
