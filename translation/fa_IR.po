@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr AMP\n"
-"POT-Creation-Date: 2024-10-15 01:40+0330\n"
-"PO-Revision-Date: 2024-10-15 01:40+0330\n"
+"POT-Creation-Date: 2025-08-27 10:41+0330\n"
+"PO-Revision-Date: 2025-08-27 10:41+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,14 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-Bookmarks: -1,32,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: lib\n"
@@ -67,13 +66,13 @@ msgid "Rating Feedback"
 msgstr "بازخورد امتیاز"
 
 #: src/Pmpr/Module/Rating/Frontend.php:116
-#: src/Pmpr/Module/Rating/Model/Feedback.php:35
+#: src/Pmpr/Module/Rating/Model/Feedback.php:37
 msgid "Text"
 msgstr "متن"
 
 #: src/Pmpr/Module/Rating/Frontend.php:118
-msgid "Submit"
-msgstr "تایید"
+msgid "Send Feedback"
+msgstr "ارسال بازخورد"
 
 #: src/Pmpr/Module/Rating/Hook.php:34 src/Pmpr/Module/Rating/Rating.php:25
 msgid "Rating"
@@ -85,7 +84,7 @@ msgid "%s of %s %s"
 msgstr "%s از %s %s"
 
 #: src/Pmpr/Module/Rating/Model/Common.php:21
-#: src/Pmpr/Module/Rating/Model/Rate.php:88
+#: src/Pmpr/Module/Rating/Model/Rate.php:90
 msgid "Object ID"
 msgstr "نوشته یا ترم"
 
@@ -114,45 +113,45 @@ msgstr "آی پی"
 msgid "Created At"
 msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Module/Rating/Model/Feedback.php:17
+#: src/Pmpr/Module/Rating/Model/Feedback.php:19
 msgid "Feedbacks"
 msgstr "بازخوردها"
 
-#: src/Pmpr/Module/Rating/Model/Feedback.php:18
-#: src/Pmpr/Module/Rating/Setting.php:78
+#: src/Pmpr/Module/Rating/Model/Feedback.php:20
+#: src/Pmpr/Module/Rating/Setting.php:75
 msgid "Feedback"
 msgstr "بازخورد"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:16
+#: src/Pmpr/Module/Rating/Model/Rate.php:18
 msgid "Rates"
 msgstr "امتیاز‌ها"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:17
-#: src/Pmpr/Module/Rating/Setting.php:39
+#: src/Pmpr/Module/Rating/Model/Rate.php:19
+#: src/Pmpr/Module/Rating/Setting.php:36
 msgid "Rate"
 msgstr "امتیاز"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:48
+#: src/Pmpr/Module/Rating/Model/Rate.php:50
 msgid "Value"
 msgstr "مقدار"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:93
+#: src/Pmpr/Module/Rating/Model/Rate.php:95
 msgid "Excellent"
 msgstr "عالی"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:94
+#: src/Pmpr/Module/Rating/Model/Rate.php:96
 msgid "Good"
 msgstr "خوب"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:95
+#: src/Pmpr/Module/Rating/Model/Rate.php:97
 msgid "Average"
 msgstr "متوسط"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:96
+#: src/Pmpr/Module/Rating/Model/Rate.php:98
 msgid "Bad"
 msgstr "بد"
 
-#: src/Pmpr/Module/Rating/Model/Rate.php:97
+#: src/Pmpr/Module/Rating/Model/Rate.php:99
 msgid "Extremely Poor"
 msgstr "شدیدا ضعیف"
 
@@ -160,79 +159,79 @@ msgstr "شدیدا ضعیف"
 msgid "Rate is not recorded. please try again."
 msgstr "امتیاز ثبت نشد، لطفا دوباره تلاش کنید."
 
-#: src/Pmpr/Module/Rating/Setting.php:30
+#: src/Pmpr/Module/Rating/Setting.php:26
 msgid "Rating Setting"
 msgstr "تنظیمات امتیازدهی"
 
-#: src/Pmpr/Module/Rating/Setting.php:31
+#: src/Pmpr/Module/Rating/Setting.php:27
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Module/Rating/Setting.php:41
+#: src/Pmpr/Module/Rating/Setting.php:38
 msgid "Rate Configuration"
 msgstr "پیکربندی امتیاز"
 
-#: src/Pmpr/Module/Rating/Setting.php:45 src/Pmpr/Module/Rating/Setting.php:84
+#: src/Pmpr/Module/Rating/Setting.php:42 src/Pmpr/Module/Rating/Setting.php:81
 msgid "Configuration"
 msgstr "پیکربندی"
 
-#: src/Pmpr/Module/Rating/Setting.php:48
+#: src/Pmpr/Module/Rating/Setting.php:45
 msgid "Target Post Types"
 msgstr "نوع نوشته‌ها"
 
-#: src/Pmpr/Module/Rating/Setting.php:57
+#: src/Pmpr/Module/Rating/Setting.php:54
 msgid "Target Taxonomies"
 msgstr "طبقه‌بندی های هدف"
 
-#: src/Pmpr/Module/Rating/Setting.php:66
+#: src/Pmpr/Module/Rating/Setting.php:63
 msgid "Show Number in Stars"
 msgstr "نمایش عدد در ستاره‌ها"
 
-#: src/Pmpr/Module/Rating/Setting.php:67
+#: src/Pmpr/Module/Rating/Setting.php:64
 msgid "Check this option if you want show number of rate in rating stars."
 msgstr ""
 "اگر می‌خواهید عدد متناظر مربوط به امیتاز هر ستاره در آن نمایش داده شود، این "
 "گزینه را فعال کنید."
 
-#: src/Pmpr/Module/Rating/Setting.php:72
+#: src/Pmpr/Module/Rating/Setting.php:69
 msgid "Thanks Message"
 msgstr "پیغام تشکر"
 
-#: src/Pmpr/Module/Rating/Setting.php:73
+#: src/Pmpr/Module/Rating/Setting.php:70
 msgid "Thanks for your rating."
 msgstr "از امتیاز‌ی که دادید متشکریم."
 
-#: src/Pmpr/Module/Rating/Setting.php:80
+#: src/Pmpr/Module/Rating/Setting.php:77
 msgid "Feedback Configuration"
 msgstr "پیکربندی بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:87
+#: src/Pmpr/Module/Rating/Setting.php:84
 msgid "Enable Feedback"
 msgstr "فعال سازی بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:95
+#: src/Pmpr/Module/Rating/Setting.php:92
 msgid "Worse Threshold"
 msgstr "آستانه بدترین امتیاز"
 
-#: src/Pmpr/Module/Rating/Setting.php:97
+#: src/Pmpr/Module/Rating/Setting.php:94
 msgid "Ask a feedback question, if user rate less than threshold."
 msgstr ""
 "در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده خواهد "
 "شد."
 
-#: src/Pmpr/Module/Rating/Setting.php:101
+#: src/Pmpr/Module/Rating/Setting.php:98
 msgid "Feedback Question"
 msgstr "پرسش بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:102
+#: src/Pmpr/Module/Rating/Setting.php:99
 msgid "Share the reason behind this submission with us."
 msgstr "علت ثبت این امتیاز کم رو با ما در میان بگذارید."
 
-#: src/Pmpr/Module/Rating/Setting.php:106
+#: src/Pmpr/Module/Rating/Setting.php:103
 msgid "Feedback Message"
 msgstr "پیغام بازخورد"
 
-#: src/Pmpr/Module/Rating/Setting.php:107
+#: src/Pmpr/Module/Rating/Setting.php:104
 msgid "Thanks for your feedback."
 msgstr "بابت بازخوردتون ممنونیم."
 
@@ -271,6 +270,9 @@ msgstr "جدول"
 #: src/Pmpr/Module/Rating/Widget.php:58
 msgid "Simple List"
 msgstr "لیست ساده"
+
+#~ msgid "Submit"
+#~ msgstr "تایید"
 
 #~ msgid "Show Page"
 #~ msgstr "نمایش صفحه"
