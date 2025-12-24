@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             694c571dd5540             |
+    |             694c57ce4261f             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Rating\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Common\Foundation\ORM\Model; class Feedback extends Model { const omokyaqqqemegkkm = 'rate_id'; public function register() { $this->muuwuqssqkaieqge(__('Feedbacks', PR__MDL__RATING))->guiaswksukmgageq(__('Feedback', PR__MDL__RATING))->saemoowcasogykak(IconInterface::aessmsgaooqooygy)->uaywwyimkgwyqwya([Constants::yiuwgggacagyeqmo => 20]); $this->ecmiqywsauuoccwo(Constants::ieioeisgwcgysukw); } public function uwmqacgewuauagai() { $eqwoegegiamegqsm = $this->caokeucsksukesyo()->skckwsgymkimyuwo(); $this->cquokmemekqqywgi($eqwoegegiamegqsm->gysoeyaguiyewoes(Constants::TEXT)->gswweykyogmsyawy(__('Text', PR__MDL__RATING)))->cquokmemekqqywgi($eqwoegegiamegqsm->eoaomaokwkwqyqiq(self::omokyaqqqemegkkm)->gswweykyogmsyawy(__('Related Rate', PR__MDL__RATING))->geimymogiqyssawi(Rate::class)->wakqsiacyacmumuw())->cquokmemekqqywgi($eqwoegegiamegqsm->qwwuoqeeiyuoyogs(Constants::CREATED_AT)->gswweykyogmsyawy(__('Created At', PR__MDL__RATING))); parent::uwmqacgewuauagai(); } public function uikgwcuascgeissw($mksyucucyswaukig) : ?string { $kwkmegesqkqwyska = $this->waecsyqmwascmqoa($mksyucucyswaukig, Constants::CREATED_AT); return $this->caokeucsksukesyo()->gagsyqagguwwauac()->ekasyoagocygouom($kwkmegesqkqwyska); } }
